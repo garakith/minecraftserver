@@ -6,7 +6,7 @@ LABEL version="1"
 
 RUN apk add curl unzip dos2unix && \
     addgroup minecraft && \
-    adduser --home /data --ingroup minecraft --disabled-password minecraft
+    adduser --uid 99 --gid 100 --home /data --disabled-password minecraft
 
 COPY launch.sh /launch.sh
 RUN dos2unix /launch.sh
