@@ -19,11 +19,11 @@ WORKDIR /data
 
 EXPOSE 25565/tcp
 
-CMD ["/bin/sh","/launch.sh"]
+CMD ["/launch.sh"]
 
-ENV MOTD "Minecraft Server Hosted on Docker"
-ENV JVM_OPTS "-Xms4G -Xmx8G"
-ENV SERVER_FILES "Server-Files-0.2.6"
-ENV SERVER_FILES_URL "https://mediafilez.forgecdn.net/files/4804/455/Server-Files-0.2.6.zip"
-ENV FORGE_VERSION "1.20.1-47.1.3"
-ENV EULA "true"
+# ENV MOTD "Minecraft Server Hosted on Docker"
+# ENV JVM_OPTS "-Xms4G -Xmx8G"
+# ENV SERVER_FILES "Server-Files-0.2.6"
+# ENV SERVER_FILES_URL "https://mediafilez.forgecdn.net/files/4804/455/Server-Files-0.2.6.zip"
+# ENV FORGE_VERSION "1.20.1-47.1.3"
+# ENV EULA "true"

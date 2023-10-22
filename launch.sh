@@ -22,8 +22,8 @@ if ! [[ -f ${SERVER_FILES}.zip ]]; then
 		cd /data
 		rm -fr "$DIR_TEST"
 	fi
-	curl -Lo forge-${FORGE_VERSION}-installer.jar http://files.minecraftforge.net/maven/net/minecraftforge/forge/$FORGE_VERSION/forge-$FORGE_VERSION-installer.jar
-	java -jar forge-${FORGE_VERSION}-installer.jar --installServer
+#	curl -Lo forge-${FORGE_VERSION}-installer.jar http://files.minecraftforge.net/maven/net/minecraftforge/forge/$FORGE_VERSION/forge-$FORGE_VERSION-installer.jar
+#	java -jar forge-${FORGE_VERSION}-installer.jar --installServer
 fi
 
 if [[ -n "$JVM_OPTS" ]]; then
