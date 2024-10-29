@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Minecraft Server - Java 21</Name>
-  <Repository>https://github.com/garakith/minecraftserver</Repository>
-  <Registry>https://github.com/garakith/minecraftserver</Registry>
+  <Repository>garakith/minecraftserver:java21</Repository>
+  <Registry>https://hub.docker.com/repository/docker/garakith/minecraftserver</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
