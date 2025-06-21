@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM openjdk:21-buster
+FROM eclipse-temurin:21-jre
 
 LABEL version="1.0"
 
