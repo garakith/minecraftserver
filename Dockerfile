@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM eclipse-temurin:21-jre
+FROM alpine/java:21-jre
 
 LABEL version="1.0"
 
